@@ -10,8 +10,6 @@ It is configured via `.env` file (on its first version), and it enables you to e
 2. Fill the values according to [reference](#Reference)
 3. Just go to your terminal and run `yarn start`
 
-⚠️ WARNING: At the moment, the bot keeps sending the buy bundle to the network, it doesn't stop once the transaction has been included
-
 ### Reference
 
 |Variable                 |Description                                                                                 |
