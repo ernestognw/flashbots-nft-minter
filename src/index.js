@@ -32,7 +32,7 @@ const sendBundle = async (flashbotsProvider) => {
   const response = await bundleSubmitResponse.wait();
 
   if (response !== 0) {
-    console.log(`Bundle not included, retrying...`);
+    console.log(`Bundle not included with response: ${response}, retrying...`);
     sendBundle(flashbotsProvider);
   } else {
     console.log("Bundle executed successfully");
